@@ -18,7 +18,7 @@ const desc = {
 /* Looping through images */
 for (const image of images) {
   const replace = document.createElement('img');
-  replace.setAttribute('src', `/images/${image}`);
+  replace.setAttribute('src', `images/${image}`);
   replace.setAttribute('alt', desc[image]);
   thumbBar.appendChild(replace);  // Append replace, not newImage
   replace.addEventListener('click', e => { 
