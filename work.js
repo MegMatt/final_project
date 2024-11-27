@@ -12,7 +12,7 @@ fetch('work.json')
 
 function parseData(data){
     for(let i=0; i<data.projects.length; i++){
-    document.getElementById("projects").innerHTML += `<a href="subs/${data.projects[i].subdomain}.html">
+    document.getElementById("projects").innerHTML += `<a href="${data.projects[i].subdomain}.html">
     <div class="row project" id="${data.projects[i].subdomain}">
         <div class="projimg"><img src="images/unicorns/unicorn (${i +1}).png"></div>
         <div class="description"><h2>${data.projects[i].name}</h2><p class="subtitle">${data.projects[i].subtitle}</p>
