@@ -1,3 +1,4 @@
+/* turn image carosel into row and change text location for mobile view */
 @media screen and (orientation: portrait) {
   .container{
       display:flex;
@@ -38,7 +39,7 @@
   padding-right:100px;
 }
 
-
+/* making the image carosel into a column when in browser view */
 @media screen and (min-width: 1024px) {
   .thumb-bar {
     display: flex;

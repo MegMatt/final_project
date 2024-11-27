@@ -1,0 +1,101 @@
+
+/* adjust for mobile viewing */
+@media screen and (orientation: portrait) {
+    .event{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+    .event2{
+        display:flex;
+        gap: 2em;
+        flex-direction: column-reverse;
+    }
+
+    .event2 img
+    {
+        width:100%;
+        height:auto;
+    }
+    .event img
+    {
+        width:100%;
+        height:auto;
+    }
+    
+    .event_text {
+        padding:10px;
+        align-self: center;
+        color:white;
+    }
+
+}
+
+/* make things pretty and the div look correct */
+.title{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.container{
+    display:flex;
+    justify-content: left;
+    width:auto;
+    height:auto;
+    padding:50px;
+}
+
+text {
+    padding:20px;
+    padding-left: 80px;
+    align-self: center;
+}
+
+text h2{
+font-size: 50px;
+}   
+text p{
+    font-size:40px;
+}
+
+
+
+
+/* nav css */
+body{
+    margin:0;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+ul{
+    list-style: none;
+    display:flex;
+    background-color: black;
+    margin:0;
+    padding:10px;
+    justify-content: center;
+
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+li a:hover{
+    background-color:rgb(195, 60, 60);
+    font-size: 30px;
+    transition: all 0.5s ease;
+}
+
+
+li a:active{
+    background-color: white;
+    color: black;
+}
+

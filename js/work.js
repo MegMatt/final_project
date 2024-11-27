@@ -1,5 +1,6 @@
 let proj;
-fetch('work.json')
+
+fetch('/json/work.json')
     .then(response =>{
         return response.json();
     }).then(projects => {
@@ -14,12 +15,13 @@ function parseData(data){
     for(let i=0; i<data.projects.length; i++){
     document.getElementById("projects").innerHTML += `<a href="${data.projects[i].subdomain}.html">
     <div class="row project" id="${data.projects[i].subdomain}">
-        <div class="projimg"><img src="images/unicorns/unicorn (${i +1}).png"></div>
+        <div class="projimg"><img src="/images/unicorns/unicorn (${i +1}).png"></div>
         <div class="description"><h2>${data.projects[i].name}</h2><p class="subtitle">${data.projects[i].subtitle}</p>
         <p>${data.projects[i].abstract}</p></div></div></a>`;
     }   
 }
 
+// checking for when the button is clicked
 for(b of document.querySelectorAll("#buttons button")){
     b.addEventListener("click", e=>{
         console.log(e.target.value);
@@ -27,6 +29,7 @@ for(b of document.querySelectorAll("#buttons button")){
     })
 }
 
+// sorting projects based on the button pressed
 function sortProjects(button){
     if(button == "clear"){
         for(let i=0; i<proj.projects.length; i++){
