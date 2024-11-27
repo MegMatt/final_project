@@ -9,7 +9,7 @@ const images = ['cat.png', 'chick.png', 'kitty.png'];
 
 /* Declaring the alternative text for each image file */
 const desc = {
-    'cat.png': "catt",    
+    'cat.png': "catman",    
     'chick.png': "chick",
     'kitty.png': "kitty",
 
