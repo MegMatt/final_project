@@ -6,9 +6,9 @@
 			"subtitle": "yada yada",
 			"abstract": "yerbo durbo",
 			"description": ["In Human-Computer Interaction, children have been active participants in co-designing future technologies for other children. Most studies in co-design (prior to COVID-19), focused on co-located in-person sessions that involved physical techniques, such as hand-drawn and crafted prototypes, acting out scenarios, and playing movement games to generate ideas. However, these physically proximal activities are not possible online. This lack of physical engagement creates barriers and leaves children feeling less creative and engaged in the remote co-design process.", "To workaround this situation in which children are co-designing online, we have worked with KidsTeam UW to create another option for remote co-design: tangible interfaces for remote co-design. Our project, Together Apart, uses toio tabletop robots and a tablet interface to add a tangible dimension to online co-design. When using our system, our child design partners acted in an engaged manner not typically seen in remote settings.", "While working together online, KidsTeam UW children used our toio robotics system to design games, swarm robot expressions, and create physical art together. For our workshop contribution, we will showcase some of our work-in-progress and develop potential collaborations for tangible online co-design. In the future we plan to move from a fully remote environment to a hybrid environment for co-design. We will engage in conversations with KidsTeam UW about how tangible interfaces for hybrid environments differ from fully online contexts."],
-			"images": ["cat.png", "chick.png","kitty.png"],
-			"alts":["one","two","three"],
-			"link":["huh"]
+			"images": ["web (1).png", "web (2).png"],
+			"alts":["one","two"],
+			"link":["../projects/html.html"]
 	},{
 			"name": "Css Project",
 			"subdomain": "css_project",
@@ -16,9 +16,9 @@
 			"subtitle": "yada yada",
 			"abstract": "yerbo durbo",
 			"description": ["In Human-Computer Interaction, children have been active participants in co-designing future technologies for other children. Most studies in co-design (prior to COVID-19), focused on co-located in-person sessions that involved physical techniques, such as hand-drawn and crafted prototypes, acting out scenarios, and playing movement games to generate ideas. However, these physically proximal activities are not possible online. This lack of physical engagement creates barriers and leaves children feeling less creative and engaged in the remote co-design process.", "To workaround this situation in which children are co-designing online, we have worked with KidsTeam UW to create another option for remote co-design: tangible interfaces for remote co-design. Our project, Together Apart, uses toio tabletop robots and a tablet interface to add a tangible dimension to online co-design. When using our system, our child design partners acted in an engaged manner not typically seen in remote settings.", "While working together online, KidsTeam UW children used our toio robotics system to design games, swarm robot expressions, and create physical art together. For our workshop contribution, we will showcase some of our work-in-progress and develop potential collaborations for tangible online co-design. In the future we plan to move from a fully remote environment to a hybrid environment for co-design. We will engage in conversations with KidsTeam UW about how tangible interfaces for hybrid environments differ from fully online contexts."],
-			"images": ["cat.png", "chick.png","kitty.png"],
-			"alts":["one","two","three"],
-			"link":[""]
+			"images": ["card (1).png", "card (2).png"],
+			"alts":["Image of a card","Image of Ryan Gosling"],
+			"link":["../projects/css.html"]
 	},{
 			"name": "Js Project",
 			"subdomain": "js_project",
@@ -26,9 +26,9 @@
 			"subtitle": "yada yada",
 			"abstract": "yerbo durbo",
 			"description": ["In Human-Computer Interaction, children have been active participants in co-designing future technologies for other children. Most studies in co-design (prior to COVID-19), focused on co-located in-person sessions that involved physical techniques, such as hand-drawn and crafted prototypes, acting out scenarios, and playing movement games to generate ideas. However, these physically proximal activities are not possible online. This lack of physical engagement creates barriers and leaves children feeling less creative and engaged in the remote co-design process.", "To workaround this situation in which children are co-designing online, we have worked with KidsTeam UW to create another option for remote co-design: tangible interfaces for remote co-design. Our project, Together Apart, uses toio tabletop robots and a tablet interface to add a tangible dimension to online co-design. When using our system, our child design partners acted in an engaged manner not typically seen in remote settings.", "While working together online, KidsTeam UW children used our toio robotics system to design games, swarm robot expressions, and create physical art together. For our workshop contribution, we will showcase some of our work-in-progress and develop potential collaborations for tangible online co-design. In the future we plan to move from a fully remote environment to a hybrid environment for co-design. We will engage in conversations with KidsTeam UW about how tangible interfaces for hybrid environments differ from fully online contexts."],
-			"images": ["cat.png", "chick.png","kitty.png"],
+			"images": ["joke (1).png", "joke (2).png","joke (3).png"],
 			"alts":["one","two","three"],
-			"link":["huh"]
+			"link":["../projects/js.html"]
 		}
 		]
 

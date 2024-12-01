@@ -45,7 +45,7 @@ function buildPage(project){
     for (let i = 0; i < project.images.length; i++) {
         const thumb = document.createElement("img"); //image that appears
         thumb.src = `../images/${project.images[i]}`; //find image
-        thumb.alt = project.alts[i] || `Thumbnail ${i + 1}`; //find alt text
+        thumb.alt = project.alts[i] || `Thumbnail ${i + 1}`; //find alt text    
 
         // Add a click event to update the main image
         thumb.addEventListener("click", function () {
