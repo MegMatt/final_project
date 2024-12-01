@@ -50,9 +50,12 @@
   
   /* image selector css */
   h1 {
-      font-family: helvetica, arial, sans-serif;
       text-align: center;
+      color: #E5D0CC;
     }
+  p{
+    color:#E5D0CC;
+  }
     
     .container {
       display: flex;
@@ -72,7 +75,8 @@
       display: block;
       width: 80px;
       cursor: pointer;
-      padding: 10px;
+      border:2px solid #172121;
+      border-radius: 2px;
     }
   
     .thumb-bar:hover{
@@ -87,12 +91,21 @@
     max-width: 500px;
     height: auto; 
     display: block;
+    border:2px solid #172121;
+    border-radius: 2px;
   }
+
+  #link
+  {
+    color:#BFACB5;
+  }
+  
   
   
   /* nav css */
   body{
       margin:0;
+      background-color: #444554;
   }
   nav{
       position: sticky;
@@ -101,7 +114,7 @@
   ul{
       list-style: none;
       display:flex;
-      background-color: black;
+      background-color:  #172121;
       margin:0;
       padding:10px;
       justify-content: center;
@@ -109,12 +122,12 @@
   
   li a{
       text-decoration: none;
-      color: white;
+      color: #7F7B82;
       padding: 10px;
   }
   
   li a:hover{
-      background-color:rgb(195, 60, 60);
+      background-color: #E5D0CC;
       font-size: 30px;
       transition: all 0.5s ease;
   }
@@ -122,5 +135,5 @@
   
   li a:active{
       background-color: white;
-      color: black;
+      color: #172121;
   }

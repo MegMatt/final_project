@@ -1,6 +1,73 @@
+@media screen and (orientation: portrait) {
+
+
+    .cont{
+        display:flex;
+        gap: 2em;
+        flex-direction: column-reverse;
+    }
+
+    .cont img
+    {
+        width:100%;
+        height:auto;
+    }
+    
+    .text {
+        padding:10px;
+        align-self: center;
+    }
+
+}
+
+
+
+body, html {
+    height: 100%;
+    margin:0;
+    overflow-x: hidden;
+}
+
+.month{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+
+.cont{
+    display:flex;
+    justify-content: center;
+    width:auto;
+    height:auto;
+    padding:50px;
+}
+
+.cont img
+{
+    width:100%;
+    height:auto;
+}
+
+.text {
+    padding:20px;
+    align-self: center;
+    color:#E5D0CC;
+}
+
+.text h2{
+font-size: 50px;
+}   
+.text p{
+    font-size:20px;
+}
+
+
+
 /* nav css */
 body{
     margin:0;
+    background-color: #444554;
 }
 nav{
     position: sticky;
@@ -9,21 +76,20 @@ nav{
 ul{
     list-style: none;
     display:flex;
-    background-color: black;
+    background-color:  #172121;
     margin:0;
     padding:10px;
     justify-content: center;
-
 }
 
 li a{
     text-decoration: none;
-    color: white;
+    color: #7F7B82;
     padding: 10px;
 }
 
 li a:hover{
-    background-color:rgb(195, 60, 60);
+    background-color: #E5D0CC;
     font-size: 30px;
     transition: all 0.5s ease;
 }
@@ -31,5 +97,5 @@ li a:hover{
 
 li a:active{
     background-color: white;
-    color: black;
+    color: #172121;
 }

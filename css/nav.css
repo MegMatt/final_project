@@ -9,7 +9,7 @@ nav{
 ul{
     list-style: none;
     display:flex;
-    background-color: black;
+    background-color:  #172121;
     margin:0;
     padding:10px;
     justify-content: center;
@@ -31,5 +31,5 @@ li a:hover{
 
 li a:active{
     background-color: white;
-    color: black;
+    color: #172121;
 }

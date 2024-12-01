@@ -17,7 +17,7 @@ function parseData(data){
     <div class="row project" id="${data.projects[i].subdomain}">
         <div class="projimg"><img src="../images/thumbnail (${i +1}).png"></div>
         <div class="description"><h2>${data.projects[i].name}</h2><p class="subtitle">${data.projects[i].subtitle}</p>
-        <p>${data.projects[i].abstract}</p></div></div></a>`;
+        <p>${data.projects[i].description}</p></div></div></a>`;
     }   
 }
 
