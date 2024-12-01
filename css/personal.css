@@ -38,13 +38,15 @@
 h2{
     color:#E5D0CC;
 }
+
 p{
     color:#E5D0CC;
     }
 
 .actual_img {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
+    min-width: 500px;
     height: auto; 
     display: block;
   }
