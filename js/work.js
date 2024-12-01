@@ -31,20 +31,29 @@ for(b of document.querySelectorAll("#buttons button")){
 
 // sorting projects based on the button pressed
 function sortProjects(button){
+    console.log(button);
     if(button == "clear"){
         for(let i=0; i<proj.projects.length; i++){
             document.getElementById(proj.projects[i].subdomain).style.display = "flex";
         }
-    }else if(button != undefined){
+    }
+    else if(button != undefined){
         for(let i=0; i<proj.projects.length;i++){
-            if(proj.projects[i].category.includes(button)){
+            if(proj.projects[i].category.includes(button) == true){
                 document.getElementById(proj.projects[i].subdomain).style.display = "flex";
-            }else{
+            }
+            else{
                 document.getElementById(proj.projects[i].subdomain).style.display = "none";
             }
         }
     }else{
         console.log("error, button value is undefined");
     }
-
 }
+
+//reads which button has been pressed and uses sort projects function
+document.querySelectorAll('#buttons button').forEach(button => {
+    button.addEventListener('click', () => {
+        sortProjects(button.value);
+    });
+});

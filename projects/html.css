@@ -1,0 +1,12 @@
+body {
+    max-width: 880px;
+    margin: 0 auto;
+    }    
+
+    .Title {
+    text-align: center;
+    }
+
+    .img {
+        border-radius: 8px;
+      }
