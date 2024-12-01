@@ -32,6 +32,7 @@ function buildPage(project){
     document.getElementById("project").innerHTML += `<h1>${project.name}</h1>`;
     document.getElementById('project-abstract').textContent = project.abstract;
 
+
     //main image and image carosel
     const displayedImage = document.querySelector(".displayed-img");
     const thumbBar = document.querySelector(".thumb-bar");
