@@ -1,125 +1,123 @@
-
 /* turn image carosel into row and change text location for mobile view */
 @media screen and (orientation: portrait) {
-  .container{
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+  
+    .full-img
+    {
+        width:150px;
+        height: auto;
+        max-width: 20px;
+    }
+    
+    .text {
+        padding:10px;
+        align-self: center;
+    }
+  
+    .thumb-bar{
+      display: flex;
+      flex-direction:row;
+    }
+  
+    .thumb-bar img{
+      margin-left: 10px;
+    }
+    
+  }
+  
+  /* text on the right */
+  .textcon {
+    padding: 10px;
+  }
+  .text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right:100px;
+  }
+  
+  /* making the image carosel into a column when in browser view */
+  @media screen and (min-width: 1024px) {
+    .thumb-bar {
+      display: flex;
+      /* flex-direction: column; */
+      margin-left: 15px;
+    }
+  }
+  
+  /* image selector css */
+  h1 {
+      font-family: helvetica, arial, sans-serif;
+      text-align: center;
+    }
+    
+    .container {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      margin: 10px;
+      justify-content: flex-start;
+    }
+    
+    .thumb-bar {
+      display: flex;
+      /* flex-direction: column; */
+      margin-left: 15px;
+    }
+    
+    .thumb-bar img {
+      display: block;
+      width: 80px;
+      cursor: pointer;
+      padding: 10px;
+    }
+  
+    .thumb-bar:hover{
+      transform: scale(1.1);
+      transition: all 0.5s ease;
+      cursor: pointer;  
+  }
+    
+    .full-img {
+      height:auto;
+      width: auto;
+      max-width: 500px;
+    }
+  
+  /* nav css */
+  body{
+      margin:0;
+  }
+  nav{
+      position: sticky;
+      top: 0;
+  }
+  ul{
+      list-style: none;
       display:flex;
-      flex-wrap: wrap;
-      gap: 2em;
-  }
-
-  .full-img
-  {
-      width:150px;
-      height: auto;
-      max-width: 20px;
-  }
-  
-  .text {
+      background-color: black;
+      margin:0;
       padding:10px;
-      align-self: center;
-  }
-
-  .thumb-bar{
-    display: flex;
-    flex-direction:row;
-  }
-
-  .thumb-bar img{
-    margin-left: 10px;
+      justify-content: center;
   }
   
-}
-
-/* text on the right */
-.textcon {
-  padding: 10px;
-}
-.text{
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right:100px;
-}
-
-/* making the image carosel into a column when in browser view */
-@media screen and (min-width: 1024px) {
-  .thumb-bar {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
-  }
-}
-
-/* image selector css */
-h1 {
-    font-family: helvetica, arial, sans-serif;
-    text-align: center;
+  li a{
+      text-decoration: none;
+      color: white;
+      padding: 10px;
   }
   
-  .container {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    margin: 10px;
-    justify-content: flex-start;
+  li a:hover{
+      background-color:rgb(195, 60, 60);
+      font-size: 30px;
+      transition: all 0.5s ease;
   }
   
-  .thumb-bar {
-    display: flex;
-    /* flex-direction: column; */
-    margin-left: 15px;
-  }
   
-  .thumb-bar img {
-    display: block;
-    width: 80px;
-    cursor: pointer;
-    padding: 10px;
+  li a:active{
+      background-color: white;
+      color: black;
   }
-
-  .thumb-bar:hover{
-    transform: scale(1.1);
-    transition: all 0.5s ease;
-    cursor: pointer;  
-}
-  
-  .full-img {
-    height:auto;
-    width: auto;
-    max-width: 500px;
-  }
-
-/* nav css */
-body{
-    margin:0;
-}
-nav{
-    position: sticky;
-    top: 0;
-}
-ul{
-    list-style: none;
-    display:flex;
-    background-color: black;
-    margin:0;
-    padding:10px;
-    justify-content: center;
-}
-
-li a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}
-
-li a:hover{
-    background-color:rgb(195, 60, 60);
-    font-size: 30px;
-    transition: all 0.5s ease;
-}
-
-
-li a:active{
-    background-color: white;
-    color: black;
-}
-

@@ -37,7 +37,7 @@ function sortProjects(button){
         }
     }else if(button != undefined){
         for(let i=0; i<proj.projects.length;i++){
-            if(proj.projects[i].category.includes(button) == true){
+            if(proj.projects[i].category.includes(button)){
                 document.getElementById(proj.projects[i].subdomain).style.display = "flex";
             }else{
                 document.getElementById(proj.projects[i].subdomain).style.display = "none";
