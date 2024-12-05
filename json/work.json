@@ -4,8 +4,8 @@
 			"subdomain": "html_project",
 			"category": "html",
 			"subtitle": "Wikepedia Page",
-			"abstract": "Ryan gosling wikepedia page created with html. Lorem ipsum dolor sit amet. Et deleniti voluptas et aliquid minima et Quis voluptatum hic mollitia voluptatem ad quas doloribus et dolor blanditiis aut sequi possimus. Sed culpa sapiente ut nihil minus et voluptatem saepe quo possimus nemo et adipisci quis nam aliquid harum sit sint repellendus. Sed maxime itaque et veniam unde aut quia consequatur ut voluptas iusto qui iusto asperiores eum laborum suscipit.",
-			"description": ["little text about Html project. Ryan Gosling Wikipedia page created with HTML."],
+			"abstract": "Ryan gosling wikepedia page created with html. My First time using HTML in a long form website, based after wikepedia. With this project I used all the building blocks of html to make a cohesive website along with linking to other pages, bookmarking, and using hierarchy to show priority in my text.",
+			"description": ["My First time using HTML in a long form website, based after wikepedia. With this project I used all the building blocks of html to make a cohesive website along with linking to other pages, bookmarking, and using hierarchy to show priority in my text."],
 			"images": ["web (1).png", "web (2).png"],
 			"alts":["one","two"],
 			"link":["../projects/html.html"]
@@ -14,8 +14,8 @@
 			"subdomain": "css_project",
 			"category": "css",
 			"subtitle": "Business Card Css",
-			"abstract": "A business card created entirely through css. Lorem ipsum dolor sit amet. Ex totam quisquam ea autem nihil eum Quis rerum et odit eaque eos rerum beatae ut omnis quod. Sit autem quia At Quis mollitia aut numquam corporis a fugit temporibus ad quia quam!",
-			"description": ["A business card created entirely through css."],
+			"abstract": "A business card created entirely through css. This is to demonstrate my abilities in using css with naming classes and isolating certain parts of the image to make an effective business card without using any other software.",
+			"description": ["A business card created entirely through css. This is to demonstrate my abilities in using css with naming classes and isolating certain parts of the image to make an effective business card without using any other software."],
 			"images": ["card (1).png", "card (2).png"],
 			"alts":["Image of a card","Image of Ryan Gosling"],
 			"link":["../projects/css.html"]
@@ -24,8 +24,8 @@
 			"subdomain": "js_project",
 			"category": "js",
 			"subtitle": "JS Joke Generator",
-			"abstract": "Lorem ipsum dolor sit amet. Ex totam quisquam ea autem nihil eum Quis rerum et odit eaque eos rerum beatae ut omnis quod. Sit autem quia At Quis mollitia aut numquam corporis a fugit temporibus ad quia quam!",
-			"description": ["A joke generator created through java script. Showing funny comics and information about the comic"],
+			"abstract": "A joke generator created through java script. Showing funny comics and information about the comic. This was created with the use of JS and using it to call information from a different location and insert it into my html and using a button to regenerate a different outcome every time.",
+			"description": ["A joke generator created through java script. Showing funny comics and information about the comic. This was created with the use of JS and using it to call information from a different location and insert it into my html and using a button to regenerate a different outcome every time."],
 			"images": ["joke (1).png", "joke (2).png","joke (3).png"],
 			"alts":["one","two","three"],
 			"link":["../projects/js.html"]

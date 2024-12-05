@@ -76,7 +76,7 @@
       width: 80px;
       cursor: pointer;
       border:2px solid #172121;
-      border-radius: 2px;
+      border-radius: 5px;
     }
   
     .thumb-bar:hover{
@@ -93,11 +93,12 @@
     height: auto; 
     display: block;
     border:2px solid #172121;
-    border-radius: 2px;
+    border-radius: 20px;
   }
 
   #link
   {
+    padding-left: 20px;
     color:#BFACB5;
   }
   
@@ -105,36 +106,36 @@
   
   /* nav css */
   body{
-      margin:0;
-      background-color: #444554;
-  }
-  nav{
-      position: sticky;
-      top: 0;
-  }
-  ul{
-      list-style: none;
-      display:flex;
-      background-color:  #172121;
-      margin:0;
-      padding:10px;
-      justify-content: center;
-  }
-  
-  li a{
-      text-decoration: none;
-      color: #7F7B82;
-      padding: 10px;
-  }
-  
-  li a:hover{
-      background-color: #E5D0CC;
-      font-size: 30px;
-      transition: all 0.5s ease;
-  }
-  
-  
-  li a:active{
-      background-color: white;
-      color: #172121;
-  }
+    margin:0;
+    background-color: #444554;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+ul{
+    list-style: none;
+    display:flex;
+    background-color:  #172121;
+    margin:0;
+    padding:10px;
+    justify-content: center;
+}
+
+li a{
+    text-decoration: none;
+    color: #E5D0CC;
+    padding: 10px;
+}
+
+li a:hover{
+    background-color: #696a7b;
+    font-size: 30px;
+    transition: all 0.5s ease;
+}
+
+
+li a:active{
+    background-color: white;
+    color: #172121;
+}

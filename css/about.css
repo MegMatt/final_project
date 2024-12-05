@@ -1,61 +1,68 @@
-/* adjust for mobile viewing */
 @media screen and (orientation: portrait) {
-    .container{
+
+
+    .cont{
         display:flex;
-        flex-wrap: wrap;
+        gap: 2em;
+        flex-direction: column-reverse;
     }
 
-    .actual_img {
-        width: 100%;
-        max-width: 500px;
-        height: auto; 
-      }
+    .cont img
+    {
+        width:100%;
+        max-width: 200px;
+        height:auto;
+    }
     
-    text {
+    .text {
         padding:10px;
         align-self: center;
-        color:#E5D0CC;
     }
 
 }
 
-/* make things pretty and the div look correct */
-.title{
-    align-items: center;
-    justify-content: center;
-    display:flex;
-    color:#E5D0CC;
+
+
+body, html {
+    height: 100%;
+    margin:0;
+    overflow-x: hidden;
 }
 
-.container{
+
+.cont{
     display:flex;
-    justify-content: left;
+    justify-content: center;
     width:auto;
     height:auto;
     padding:50px;
 }
 
-
-p{
-    color:#E5D0CC;
-    font-size: 20px;
-    }
-
-h2{
-    color:#E5D0CC;
-    font-size: 25px;
-    }
-
-
-.actual_img {
-    width: 100%;
-    max-width: 600px;
-    min-width: 500px;
-    height: auto; 
-    display: block;
+.cont img
+{
+    width:100%;
+    height:auto;
+    min-width:400px;
     border-radius: 300px;
     border: #E5D0CC dotted 10px;
-  }
+}
+
+.cont p{
+    max-width: 500px;
+}
+
+.text {
+    padding:20px;
+    align-self: center;
+    color:#E5D0CC;
+}
+
+.text h2{
+font-size: 50px;
+}   
+.text p{
+    font-size:20px;
+}
 
 
 

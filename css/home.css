@@ -1,62 +1,65 @@
-@media screen and (orientation: portrait) {
-
-
-    .cont{
-        display:flex;
-        gap: 2em;
-        flex-direction: column-reverse;
-    }
-
-    .cont img
-    {
-        width:100%;
-        height:auto;
-    }
-    
-    .text {
-        padding:10px;
-        align-self: center;
-    }
-
+/* project selector css */
+#projects{
+    display: flex;
+    flex-direction:column;
+    margin: 1vh 10vw;
 }
 
-
-
-body, html {
-    height: 100%;
-    margin:0;
-    overflow-x: hidden;
+#projects a{
+    text-decoration:none;
+    color:#172121;
 }
 
+.project:hover{
+    background-color: #E5D0CC;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    cursor: pointer;  
+}
 
-.cont{
+.project{
+    border-radius: 15px;
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    padding: 15px 20px;
+    background-color: #696a7b;
+    border: 3px solid #E5D0CC;
+}
+
+.project img{
+    width:10vw;
+    border:2px solid #E5D0CC;
+    border-radius: 12px;
+}
+
+.project p,h2 {
+    padding-left: 20px;
+}
+
+/* button things */
+#buttons{
     display:flex;
     justify-content: center;
-    width:auto;
-    height:auto;
-    padding:50px;
+    margin-top: 10px;
 }
 
-.cont img
-{
-    width:100%;
-    height:auto;
-    min-width:800px;
+#buttons button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    border: none;   
+    background-color: #E5D0CC; 
+    color: #172121;   
+    /* margin: 5px; */
+    /* border-radius: 5px; */
 }
 
-.text {
-    padding:20px;
-    align-self: center;
-    color:#E5D0CC;
+#buttons button:hover {
+    background-color: #696a7b; 
+    /* transform: scale(1.1); */
+    transition: all 0.5s ease;
+    cursor: pointer;  
 }
-
-.text h2{
-font-size: 50px;
-}   
-.text p{
-    font-size:20px;
-}
-
 
 
 /* nav css */
@@ -79,12 +82,12 @@ ul{
 
 li a{
     text-decoration: none;
-    color: #7F7B82;
+    color: #E5D0CC;
     padding: 10px;
 }
 
 li a:hover{
-    background-color: #E5D0CC;
+    background-color: #696a7b;
     font-size: 30px;
     transition: all 0.5s ease;
 }
